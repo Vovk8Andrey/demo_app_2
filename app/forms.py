@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from typing import Optional
 
 
-class UserLoginForm(BaseModel): # обрабатывает то, что нам пришлет клиент в логин
+class UserLoginForm(BaseModel): 
     email: str
     password: str
 
